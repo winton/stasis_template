@@ -22,7 +22,7 @@ Use this template to develop an awesome static web site.
 
 ## Deploy
 
-Sign up at [gitcms](http://gitcms.com) and deploy to [CloudFront](http://aws.amazon.com/cloudfront) in one step:
+Sign up at [gitcms.com](http://gitcms.com) and deploy to [CloudFront](http://aws.amazon.com/cloudfront) in one step:
 
 	gitcms deploy
 

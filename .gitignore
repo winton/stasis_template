@@ -5,4 +5,5 @@
 config/aws.yml
 Gemfile.lock
 pkg
+public
 tmp

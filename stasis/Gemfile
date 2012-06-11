@@ -1,9 +1,0 @@
-source :rubygems
-
-gem "aws-s3"
-gem "coffee-script"
-gem "haml"
-gem "sass"
-gem "smart_asset"
-gem "stasis"
-gem "therubyracer"

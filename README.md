@@ -2,48 +2,32 @@
 
 [Stasis](http://stasis.me) project template.
 
-Use this project to develop a static web site and deploy it to S3.
+Use this template to develop an awesome static web site.
 
-#The Stack
+##Install gitcms
 
-Development:
+	gem install gitcms
 
-* [Stasis](http://stasis.me)
-* [Haml](http://haml-lang.com/), [Sass](http://sass-lang.com), [CoffeeScript](http://coffeescript.org), and [many other languages](http://stasis.me/#more)
-* [SmartAsset](http://winton.github.com/smart_asset)
+##Create project
 
-Deploy:
+	gitcms new my_project
 
-* [AWS::S3](http://amazon.rubyforge.org)
+##Install dependencies
 
-##Install these
-
-* [RubyGems](http://rubygems.org)
-* [Bundler](http://gembundler.com)
-* [NPM](http://npmjs.org)
-* [CoffeeScript](http://coffeescript.org)
-
-##Start a new project
-
-	git clone git@github.com:winton/stasis_template.git
-	cd stasis_template
-	rake install
+	bundle install
 
 ##Start developing
 
-	rake dev
+	gitcms server
 
-## Configure AWS
+## Deploy
 
-	cp config/aws.example.yml config/aws.yml
-	$EDITOR config/aws.yml
+Sign up at [gitcms](http://gitcms.com) and deploy to [CloudFront](http://aws.amazon.com/cloudfront) in one step:
 
-## Deploy (upload to S3)
-
-	rake deploy
+	gitcms deploy
 
 ## Stay up to date
 
-[Watch this project](https://github.com/winton/booklet#) on Github.
+[Watch this project](https://github.com/winton/stasis_template#) on Github.
 
 [Follow Winton Welsh](http://twitter.com/intent/user?screen_name=wintonius) on Twitter.

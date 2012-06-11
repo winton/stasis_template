@@ -4,6 +4,5 @@
 .sass-cache
 config/aws.yml
 Gemfile.lock
-dump.rdb
 pkg
 tmp

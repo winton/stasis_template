@@ -1,6 +1,5 @@
-source :rubygems
+source :rubygems    # PLEASE REMOVE UNUSED GEMS BELOW!
 
-                    # Please remove or comment out unused gems!
 
                     # ENGINE                     FILE EXTENSIONS         REQUIRED LIBRARIES
                     # -------------------------- ----------------------- ----------------------------
@@ -29,8 +28,7 @@ gem 'wikicloth'     # WikiCloth (Wiki markup)    .wiki, .mediawiki, .mw  wikiclo
 gem 'yajl-ruby'     # Yajl                       .yajl                   yajl-ruby
 
 
-gem "smart_asset"   # Asset compression with UglifyJS.
-                    # Remove config/assets.yml if not using this gem.
-
-
-gem "stasis"        # Do not remove!
+                    # OTHER GEMS
+                    # ----------
+gem "smart_asset"   # Asset compression with UglifyJS. Depends on config/assets.yml.
+gem "stasis"        # Do not remove! Stasis makes the magic happen.

@@ -26,6 +26,10 @@ Sign up at [gitcms](http://gitcms.com) and deploy to [CloudFront](http://aws.ama
 
 	gitcms deploy
 
+## Update bootstrap
+
+	gitcms bootstrap
+
 ## Stay up to date
 
 [Watch this project](https://github.com/winton/stasis_template#) on Github.

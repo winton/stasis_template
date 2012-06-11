@@ -7,16 +7,16 @@ source :rubygems    # PLEASE REMOVE UNUSED GEMS BELOW!
                     # Interpolated String        .str                    none (included ruby core)
 gem 'erubis'        # Erubis                     .erb, .rhtml, .erubis   erubis
 gem 'haml'          # Haml                       .haml                   haml
-gem 'sass'          # Sass                       .sass                   haml (< 3.1) or sass (>= 3.1)
-                    # Scss                       .scss                   haml (< 3.1) or sass (>= 3.1)
+gem 'sass'          # Sass, Scss                 .sass, .scss            haml (< 3.1) or sass (>= 3.1)
 gem 'less'          # Less CSS                   .less                   less
+gem 'therubyracer'  # Less CSS                   .less                   therubyracer
 gem 'builder'       # Builder                    .builder                builder
 gem 'liquid'        # Liquid                     .liquid                 liquid
 gem 'rdiscount'     # RDiscount                  .markdown, .mkd, .md    rdiscount
-gem 'redcarpet'     # Redcarpet                  .markdown, .mkd, .md    redcarpet
-gem 'bluecloth'     # BlueCloth                  .markdown, .mkd, .md    bluecloth
-gem 'kramdown'      # Kramdown                   .markdown, .mkd, .md    kramdown
-gem 'maruku'        # Maruku                     .markdown, .mkd, .md    maruku
+# gem 'redcarpet'   # Redcarpet                  .markdown, .mkd, .md    redcarpet
+# gem 'bluecloth'   # BlueCloth                  .markdown, .mkd, .md    bluecloth
+# gem 'kramdown'    # Kramdown                   .markdown, .mkd, .md    kramdown
+# gem 'maruku'      # Maruku                     .markdown, .mkd, .md    maruku
 gem 'RedCloth'      # RedCloth                   .textile                redcloth
 gem 'rdoc'          # RDoc                       .rdoc                   rdoc
 gem 'radius'        # Radius                     .radius                 radius
